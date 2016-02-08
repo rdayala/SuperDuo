@@ -24,7 +24,7 @@ import it.jaschke.alexandria.provider.categories.CategoriesSelection;
 /**
  * Created by rdayala
  *
- * Class for handling user's local libraries
+ * Class for handling user's local library of books
  */
 public class Library {
 

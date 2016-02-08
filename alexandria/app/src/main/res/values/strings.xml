@@ -151,9 +151,9 @@
 
     <string name="about_text" translatable="true">
         Alexandria was originally created by Sasch Jaschke and modified for the purposes of turning
-        it into a productionizing assignment for students in the Udacity Android Nanodegree program.
+        it into a production quality app assignment for students in the Udacity Android Nanodegree program.
         \n\nRevised by Raghunath Dayala, a student in the Android Nanodegree program.
         \n\nAll book information and images gathered from the Google Books API.
-        \n\n\nApp last updated Saturday, January 30, 2016.
+        \n\n\nApp last updated Saturday, February 8, 2016.
     </string>
 </resources>

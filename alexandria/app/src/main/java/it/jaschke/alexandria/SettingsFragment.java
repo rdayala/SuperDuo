@@ -8,9 +8,8 @@ import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 
 /**
- * Created by saj on 27/01/15.
+ * Created by rdayala
  *
- * Settings. What else?
  */
 public class SettingsFragment extends PreferenceFragment
         implements Preference.OnPreferenceChangeListener,
