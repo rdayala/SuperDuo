@@ -24,7 +24,7 @@ android {
     }
 
     buildTypes.each {
-        it.buildConfigField 'String', 'GOOGLE_BOOKS_API_KEY', '"AIzaSyCH3TAQUKpapHOekeUCPoaNJlnbopZH_BU"'
+        it.buildConfigField 'String', 'GOOGLE_BOOKS_API_KEY', '"YOUR_GOOGLE_BOOKS_API_KEY"'
     }
 }
 
