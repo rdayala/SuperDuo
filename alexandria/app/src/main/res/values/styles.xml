@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Default colors -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Default colors -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="BooksListStyle">
+        <item name="android:choiceMode">singleChoice</item>
+    </style>
+
+    <style name="ScrollbarVerticalStyle">
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_thumb_vertical</item>
+        <item name="android:scrollbarTrackVertical">@drawable/scrollbar_track_vertical</item>
+        <item name="android:scrollbarSize">@dimen/scrollbar_width</item>
+    </style>
+
+    <!-- Rating bar with custom star drawables.
+          (url: http://stackoverflow.com/questions/2446270/android-ratingbar-change-star-colors) -->
+    <style name="DetailsRatingBar" parent="@android:style/Widget.DeviceDefault.RatingBar.Small">
+        <item name="android:progressDrawable">@drawable/details_rating_bar</item>
+    </style>
+
+</resources>
