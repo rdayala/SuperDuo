@@ -4,22 +4,52 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="list_horizonal_matgin">2dp</dimen>
     <dimen name="share_button_margin">150dp</dimen>
-    <dimen name="TeamNames">17sp</dimen>
-    <dimen name="Score">30sp</dimen>
-    <dimen name="League">15sp</dimen>
 
-    <!-- Today Widget -->
-    <dimen name="widget_today_default_width">110dp</dimen>
-    <dimen name="widget_today_default_height">40dp</dimen>
-    <dimen name="widget_today_min_resize_width">40dp</dimen>
-    <dimen name="widget_today_min_resize_height">@dimen/widget_today_default_height</dimen>
-    <dimen name="widget_today_large_width">220dp</dimen>
+    <!-- Flexible margins -->
+    <dimen name="rootview_horizontal_margin">0dp</dimen>
 
-    <dimen name="widget_detail_default_width">250dp</dimen>
-    <dimen name="widget_detail_default_height">180dp</dimen>
-    <dimen name="widget_detail_min_resize_width">220dp</dimen>
-    <dimen name="widget_detail_min_resize_height">@dimen/widget_detail_default_height</dimen>
+    <!-- Padding, margins, and elevation -->
+    <dimen name="cardview_horizontal_padding">8dp</dimen>
+    <dimen name="cardview_vertical_padding">4dp</dimen>
+    <dimen name="cardview_spacing">8dp</dimen>
+    <dimen name="cardview_spacing_small">4dp</dimen>
+    <dimen name="cardview_elevation">2dp</dimen>
+    <dimen name="cardview_divider_size">1dp</dimen>
 
-    <dimen name="widget_margin">8dp</dimen>
-    <dimen name="WidgetScoreSmall">20sp</dimen>
+    <!-- Home screen widget dimensions -->
+    <dimen name="widget_min_width">180dp</dimen>
+    <dimen name="widget_min_height">40dp</dimen>
+    <dimen name="widget_padding">8dp</dimen>
+    <dimen name="widget_margins">8dp</dimen>
+    <dimen name="widget_crest_size">40dp</dimen>
+    <dimen name="widget_ic_logo_size">36dp</dimen>
+
+    <!-- List item padding -->
+    <dimen name="scores_list_item_horizontal_padding">16dp</dimen>
+    <dimen name="scores_list_item_vertical_padding">8dp</dimen>
+    <dimen name="scores_list_item_space">8dp</dimen>
+
+    <!-- List item icon sizes -->
+    <dimen name="scores_list_item_logo_size">64dp</dimen>
+
+    <!-- List item text sizes -->
+    <dimen name="scores_list_item_team_name_size">16sp</dimen>
+    <dimen name="scores_list_item_score_size">32dp</dimen>
+    <dimen name="scores_list_item_details_size">12sp</dimen>
+
+    <!-- Detail padding -->
+    <dimen name="detail_horizontal_padding">64dp</dimen>
+    <dimen name="detail_vertical_padding">2dp</dimen>
+    <dimen name="detail_space">8dp</dimen>
+
+    <!-- Detail text sizes -->
+    <dimen name="detail_league_size">12sp</dimen>
+    <dimen name="detail_matchday_size">12sp</dimen>
+
+    <!-- For tabs -->
+    <dimen name="tab_max_width">264dp</dimen>
+    <dimen name="tab_padding_bottom">16dp</dimen>
+    <dimen name="tab_label">14sp</dimen>
+    <dimen name="tab_height">72dp</dimen>
+
 </resources>
