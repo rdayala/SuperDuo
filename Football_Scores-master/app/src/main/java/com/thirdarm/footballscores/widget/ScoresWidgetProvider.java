@@ -11,7 +11,6 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
-import android.util.Log;
 import android.widget.RemoteViews;
 
 import com.thirdarm.footballscores.MainActivity;
@@ -19,7 +18,7 @@ import com.thirdarm.footballscores.R;
 import com.thirdarm.footballscores.provider.fixture.FixtureSelection;
 
 /**
- * Created by TROD on 20151230.
+ * Created by rdayala
  */
 public class ScoresWidgetProvider extends AppWidgetProvider {
     private static final String LOG_TAG = ScoresWidgetProvider.class.getSimpleName();

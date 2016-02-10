@@ -18,10 +18,9 @@ import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
 import android.util.Log;
 
-import java.util.List;
-
 import com.thirdarm.footballscores.API.APIHelper;
 import com.thirdarm.footballscores.R;
+import com.thirdarm.footballscores.model.Fixture;
 import com.thirdarm.footballscores.model.Team;
 import com.thirdarm.footballscores.provider.ateam.AteamContentValues;
 import com.thirdarm.footballscores.provider.ateam.AteamCursor;
@@ -33,10 +32,11 @@ import com.thirdarm.footballscores.provider.fixture.FixtureContentValues;
 import com.thirdarm.footballscores.provider.fixture.Status;
 import com.thirdarm.footballscores.utilities.Network;
 import com.thirdarm.footballscores.utilities.Utilities;
-import com.thirdarm.footballscores.model.Fixture;
+
+import java.util.List;
 
 /**
- * Created by TROD on 20151220.
+ * Created by rdayala
  * <p/>
  * The Scores SyncAdapter
  */

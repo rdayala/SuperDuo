@@ -1,22 +1,11 @@
 /*
- *  Copyright (C) 2016 Teddy Rodriguez (TROD)
- *    email: cia.123trod@gmail.com
- *    github: TROD-123
- *
- *  For Udacity's Android Developer Nanodegree
- *  P3: SuperDuo
- *
- *  Currently for educational purposes only.
+ *  Created by rdayala
  *
  *  Content provider files generated using Benoit Lubek's (BoD)
  *    Android ContentProvider Generator.
  *    (url: https://github.com/BoD/android-contentprovider-generator)
  */
 package com.thirdarm.footballscores.provider.base;
-
-import java.lang.reflect.Field;
-import java.util.ArrayList;
-import java.util.HashSet;
 
 import android.content.ContentProvider;
 import android.content.ContentProviderOperation;
@@ -28,8 +17,11 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.net.Uri;
 import android.provider.BaseColumns;
-import android.support.annotation.NonNull;
 import android.util.Log;
+
+import java.lang.reflect.Field;
+import java.util.ArrayList;
+import java.util.HashSet;
 
 public abstract class BaseContentProvider extends ContentProvider {
     public static final String QUERY_NOTIFY = "QUERY_NOTIFY";

@@ -6,8 +6,6 @@
     <string name="app_name" translatable="true">Football Scores</string>
     <string name="title_activity_about" translatable="true">About</string>
 
-    <string name="api_key" translatable="false">566a037dbf204d9ba2531fac29818897</string>
-
     <!-- Shared preferences keys -->
     <string name="sp_sync_status_key" translatable="false">SyncStatus</string>
     <string name="sp_teams_collected_key" translatable="false">TeamsCollected</string>
@@ -127,12 +125,10 @@
     <!-- About -->
     <string name="about_text" translatable="true">
         FootballScores was originally created by Yahia Khalid Ibn El Walid Ahmed and modified for
-        the purposes of turning it into a productionizing assignment for students in the Udacity
+        the purposes of turning it into a production quality app assignment for students in the Udacity
         Android Nanodegree program.
-        \n\nHeavily revised by Teddy Rodriguez, a student in the nanodegree program.
-        \n\nAll book information gathered from football-data.org\'s free API and team crests
-        downloaded from Wikimedia.
-        \n\n\nApp last updated Tuesday, January 12, 2016.
+        \n\nModified by Raghunath Dayala, a student in the Nanodegree program.
+        \n\nAll football matches information gathered from football-data.org\'s free API.
     </string>
 
 </resources>

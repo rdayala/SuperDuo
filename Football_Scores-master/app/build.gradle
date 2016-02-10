@@ -27,6 +27,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    buildTypes.each {
+        it.buildConfigField 'String', 'FOOTBALL_ORG_API_KEY', '"YOUR_FOOTBALL_ORG_API_KEY"'
+    }
+
     productFlavors {
     }
 }

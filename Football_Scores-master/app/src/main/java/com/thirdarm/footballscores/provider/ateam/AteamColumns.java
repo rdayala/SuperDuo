@@ -1,12 +1,5 @@
 /*
- *  Copyright (C) 2016 Teddy Rodriguez (TROD)
- *    email: cia.123trod@gmail.com
- *    github: TROD-123
- *
- *  For Udacity's Android Developer Nanodegree
- *  P3: SuperDuo
- *
- *  Currently for educational purposes only.
+ *  Created by rdayala
  *
  *  Content provider files generated using Benoit Lubek's (BoD)
  *    Android ContentProvider Generator.
@@ -18,10 +11,6 @@ import android.net.Uri;
 import android.provider.BaseColumns;
 
 import com.thirdarm.footballscores.provider.ScoresProvider;
-import com.thirdarm.footballscores.provider.ateam.AteamColumns;
-import com.thirdarm.footballscores.provider.bteam.BteamColumns;
-import com.thirdarm.footballscores.provider.fixture.FixtureColumns;
-import com.thirdarm.footballscores.provider.player.PlayerColumns;
 
 /**
  * A team. Primarily used as a reference for home teams.

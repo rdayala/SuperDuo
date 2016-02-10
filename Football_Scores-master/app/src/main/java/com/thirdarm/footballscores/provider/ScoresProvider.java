@@ -1,12 +1,5 @@
 /*
- *  Copyright (C) 2016 Teddy Rodriguez (TROD)
- *    email: cia.123trod@gmail.com
- *    github: TROD-123
- *
- *  For Udacity's Android Developer Nanodegree
- *  P3: SuperDuo
- *
- *  Currently for educational purposes only.
+ *  Created by rdayala
  *
  *  Content provider files generated using Benoit Lubek's (BoD)
  *    Android ContentProvider Generator.
@@ -14,22 +7,21 @@
  */
 package com.thirdarm.footballscores.provider;
 
-import java.util.Arrays;
-
 import android.content.ContentValues;
 import android.content.UriMatcher;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.net.Uri;
-import android.support.annotation.NonNull;
 import android.util.Log;
 
 import com.thirdarm.footballscores.BuildConfig;
-import com.thirdarm.footballscores.provider.base.BaseContentProvider;
 import com.thirdarm.footballscores.provider.ateam.AteamColumns;
+import com.thirdarm.footballscores.provider.base.BaseContentProvider;
 import com.thirdarm.footballscores.provider.bteam.BteamColumns;
 import com.thirdarm.footballscores.provider.fixture.FixtureColumns;
 import com.thirdarm.footballscores.provider.player.PlayerColumns;
+
+import java.util.Arrays;
 
 public class ScoresProvider extends BaseContentProvider {
     private static final String TAG = ScoresProvider.class.getSimpleName();

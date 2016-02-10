@@ -8,7 +8,7 @@ import android.os.Handler;
 import com.thirdarm.footballscores.R;
 
 /**
- * Created by TROD on 20151230.
+ * Created by rdayala
  *
  * This notifies an update for all scores widgets when it detects a change.
  */

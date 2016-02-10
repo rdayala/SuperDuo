@@ -7,30 +7,30 @@ import com.squareup.okhttp.Interceptor;
 import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;
 import com.squareup.okhttp.Response;
-
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-
-import com.thirdarm.footballscores.R;
-import com.thirdarm.footballscores.model.FixturesResult;
-import com.thirdarm.footballscores.utilities.Network;
-import com.thirdarm.footballscores.utilities.Utilities;
+import com.thirdarm.footballscores.BuildConfig;
 import com.thirdarm.footballscores.model.Fixture;
 import com.thirdarm.footballscores.model.FixtureComplete;
 import com.thirdarm.footballscores.model.FixturesLinks;
+import com.thirdarm.footballscores.model.FixturesResult;
 import com.thirdarm.footballscores.model.FixturesResultTeam;
 import com.thirdarm.footballscores.model.LeagueTable;
 import com.thirdarm.footballscores.model.PlayersResult;
 import com.thirdarm.footballscores.model.Soccerseason;
 import com.thirdarm.footballscores.model.Team;
 import com.thirdarm.footballscores.model.TeamsResult;
+import com.thirdarm.footballscores.utilities.Network;
+import com.thirdarm.footballscores.utilities.Utilities;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
 import retrofit.Call;
 import retrofit.GsonConverterFactory;
 import retrofit.Retrofit;
 
 /**
- * Created by TROD on 20151216.
+ * Created by rdayala
  *
  * Class used to call APIService with specified information.
  */
@@ -40,6 +40,7 @@ public class APIHelper {
 
     private APIService api;
     private Context mContext;
+    private String API_KEY;
 
     // For limiting null loops
     private static final int RECURSIVE_MAX = 10;
@@ -53,6 +54,7 @@ public class APIHelper {
      */
     public APIHelper(final Context c) {
         mContext = c;
+        API_KEY = BuildConfig.FOOTBALL_ORG_API_KEY;
         OkHttpClient httpClient = new OkHttpClient();
         httpClient.interceptors().add(new Interceptor() {
             @Override
@@ -60,7 +62,7 @@ public class APIHelper {
                 Request original = chain.request();
 
                 Request request = original.newBuilder()
-                        .header("X-Auth-Token", c.getString(R.string.api_key))
+                        .header("X-Auth-Token", API_KEY)
                         .method(original.method(), original.body())
                         .build();
 

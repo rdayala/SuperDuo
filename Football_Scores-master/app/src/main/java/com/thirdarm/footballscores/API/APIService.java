@@ -1,7 +1,5 @@
 package com.thirdarm.footballscores.API;
 
-import java.util.ArrayList;
-
 import com.thirdarm.footballscores.model.Fixture;
 import com.thirdarm.footballscores.model.FixtureComplete;
 import com.thirdarm.footballscores.model.FixturesResult;
@@ -11,13 +9,16 @@ import com.thirdarm.footballscores.model.PlayersResult;
 import com.thirdarm.footballscores.model.Soccerseason;
 import com.thirdarm.footballscores.model.Team;
 import com.thirdarm.footballscores.model.TeamsResult;
+
+import java.util.ArrayList;
+
 import retrofit.Call;
 import retrofit.http.GET;
 import retrofit.http.Path;
 import retrofit.http.Query;
 
 /**
- * Created by TROD on 20151216.
+ * Created by rdayala
  *
  * Service used to collect and parse JSON data from a server
  * Used for both Asynchronous and Synchronous calls

@@ -1,12 +1,5 @@
 /*
- *  Copyright (C) 2016 Teddy Rodriguez (TROD)
- *    email: cia.123trod@gmail.com
- *    github: TROD-123
- *
- *  For Udacity's Android Developer Nanodegree
- *  P3: SuperDuo
- *
- *  Currently for educational purposes only.
+ *  Created by rdayala
  *
  *  Content provider files generated using Benoit Lubek's (BoD)
  *    Android ContentProvider Generator.
@@ -14,14 +7,14 @@
  */
 package com.thirdarm.footballscores.provider.base;
 
+import android.content.ContentResolver;
+import android.content.Context;
+import android.database.Cursor;
+import android.net.Uri;
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
-import android.content.Context;
-import android.content.ContentResolver;
-import android.database.Cursor;
-import android.net.Uri;
 
 public abstract class AbstractSelection<T extends AbstractSelection<?>> {
     private static final String EQ = "=?";

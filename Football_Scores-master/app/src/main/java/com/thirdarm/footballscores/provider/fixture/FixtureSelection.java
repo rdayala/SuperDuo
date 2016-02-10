@@ -1,12 +1,5 @@
 /*
- *  Copyright (C) 2016 Teddy Rodriguez (TROD)
- *    email: cia.123trod@gmail.com
- *    github: TROD-123
- *
- *  For Udacity's Android Developer Nanodegree
- *  P3: SuperDuo
- *
- *  Currently for educational purposes only.
+ *  Created by rdayala
  *
  *  Content provider files generated using Benoit Lubek's (BoD)
  *    Android ContentProvider Generator.
@@ -14,16 +7,14 @@
  */
 package com.thirdarm.footballscores.provider.fixture;
 
-import java.util.Date;
-
-import android.content.Context;
 import android.content.ContentResolver;
+import android.content.Context;
 import android.database.Cursor;
 import android.net.Uri;
 
+import com.thirdarm.footballscores.provider.ateam.AteamColumns;
 import com.thirdarm.footballscores.provider.base.AbstractSelection;
-import com.thirdarm.footballscores.provider.ateam.*;
-import com.thirdarm.footballscores.provider.bteam.*;
+import com.thirdarm.footballscores.provider.bteam.BteamColumns;
 
 /**
  * Selection for the {@code fixture} table.

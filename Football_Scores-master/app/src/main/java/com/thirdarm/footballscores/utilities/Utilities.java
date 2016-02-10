@@ -1,22 +1,17 @@
 package com.thirdarm.footballscores.utilities;
 
 import android.content.Context;
-import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
-import android.util.Log;
 
-import java.text.DateFormat;
+import com.thirdarm.footballscores.R;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.TimeZone;
 
-import com.thirdarm.footballscores.R;
-import com.thirdarm.footballscores.sync.ScoresSyncAdapter;
-
 /**
  * Created by yehya khaled on 3/3/2015.
  *
- * Class updated by TROD on 20151216
+ * Class updated by rdayala
  */
 public class Utilities {
 

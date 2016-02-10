@@ -6,7 +6,7 @@ import com.google.gson.annotations.SerializedName;
 import javax.annotation.Generated;
 
 /**
- * Created by TROD on 20151219.
+ * Created by rdayala
  */
 @Generated("org.jsonschema2pojo")
 public class StandingLinks {

@@ -1,20 +1,11 @@
 /*
- *  Copyright (C) 2016 Teddy Rodriguez (TROD)
- *    email: cia.123trod@gmail.com
- *    github: TROD-123
- *
- *  For Udacity's Android Developer Nanodegree
- *  P3: SuperDuo
- *
- *  Currently for educational purposes only.
+ *  Created by rdayala
  *
  *  Content provider files generated using Benoit Lubek's (BoD)
  *    Android ContentProvider Generator.
  *    (url: https://github.com/BoD/android-contentprovider-generator)
  */
 package com.thirdarm.footballscores.provider.bteam;
-
-import java.util.Date;
 
 import android.database.Cursor;
 import android.support.annotation.NonNull;
